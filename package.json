@@ -1,0 +1,15 @@
+{
+  "name": "spense-starter-files",
+  "version": "1.0.0",
+  "description": "Proyecto con sass desde cero ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/styles.css --watch"
+  },
+  "author": "Gregory Subero",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
