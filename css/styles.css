@@ -1,8 +1,18 @@
 /*Base*/
+/*Fonts */
+h1 {
+  font-size: 2.6rem; }
+
+h2 {
+  font-size: 2.2rem; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
 
 body {
   font-family: 'Cabin', sans-serif; }
@@ -12,31 +22,57 @@ a {
   color: #403d39; }
 
 p {
-  font-size: 62.5%; }
+  font-size: 1.4rem;
+  padding: 8px 0px;
+  color: #403d39;
+  width: 100%;
+  font-weight: 400; }
 
-header, main, footer {
-  min-width: 2rem;
+h1, h2 {
+  padding: 20px 0px 0px 0px; }
+
+img {
   width: 100%;
   height: auto; }
+
+div {
+  padding: .625rem 0rem; }
 
 /*Layout*/
 .header {
   padding: 0rem 1.25rem; }
-  .header .header__bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 0rem; }
-  .header .header__hero {
-    width: 100%;
-    height: auto; }
-    .header .header__hero .header__figure {
-      width: 100%;
-      height: auto; }
-      .header .header__hero .header__figure .header__heroimage {
-        width: 100%;
-        height: auto; }
+
+.header, .main, .footer {
+  min-width: 2rem;
+  width: 100%;
+  height: auto; }
 
 /*Modules*/
+/*Navbar*/
+.header__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0rem; }
+
+.header__hero {
+  width: 100%;
+  height: auto; }
+  .header__hero .header__figure {
+    width: 100%;
+    height: auto; }
+
+.hero__benefits {
+  width: 100%;
+  height: auto; }
+  .hero__benefits .hero__list {
+    list-style: none; }
+
 /*States*/
 /*Themes*/
+/*Fonts */
+h1 {
+  font-size: 2.6rem; }
+
+h2 {
+  font-size: 2.2rem; }

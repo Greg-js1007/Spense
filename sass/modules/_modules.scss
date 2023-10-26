@@ -1,0 +1,28 @@
+/*Navbar*/
+.header__bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0rem;
+}
+
+.header__hero{
+    width: 100%;
+    height: auto;
+
+    .header__figure{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.hero__benefits{
+    width: 100%;
+    height: auto;
+
+    .hero__list{
+        list-style: none;
+
+    
+    }
+}

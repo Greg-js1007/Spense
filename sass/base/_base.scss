@@ -1,7 +1,13 @@
+
+@import '../theme/themes.scss';
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
 }
 body{
     font-family: 'Cabin', sans-serif;
@@ -11,11 +17,19 @@ a{
     color: #403d39;
 }
 p{
-    font-size: 62.5%;
+    font-size: 1.4rem;
+    padding: 8px 0px;
+    color: $fonts-color-primary;
+    width: 100%;
+    font-weight: 400;
 }
-
-header, main, footer{
-    min-width: 2rem;
+h1,h2{
+    padding: 20px 0px 0px 0px;
+}
+img{
     width: 100%;
     height: auto;
+}
+div{
+    padding: .625rem 0rem;
 }
