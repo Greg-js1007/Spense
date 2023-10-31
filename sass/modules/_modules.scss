@@ -1,3 +1,6 @@
+
+@import '../theme/themes';
+
 /*Navbar*/
 .header__bar{
     display: flex;
@@ -23,6 +26,35 @@
     .hero__list{
         list-style: none;
 
-    
+        .hero__item{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 15px;
+        padding: .625rem 0rem 0.312rem 0rem;
+
+        .hero__checkmark{
+            width: 10%;
+            height: auto;
+            }
+        p{
+            color: $fonts-color-primary;
+            font-weight: bold;
+        }
+        }
+    }
+}
+.hero__cta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+
+    .hero__input{
+        width: auto;
+        padding: 10px;
     }
 }

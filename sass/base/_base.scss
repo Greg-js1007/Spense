@@ -1,5 +1,5 @@
 
-@import '../theme/themes.scss';
+@import '../theme/themes';
 
 *{
     margin: 0;
@@ -32,4 +32,10 @@ img{
 }
 div{
     padding: .625rem 0rem;
+}
+input{
+    color: $paragrahps-footer-color;
+    background-color: #000;
+    border: none;
+    border-radius: 4px;
 }
