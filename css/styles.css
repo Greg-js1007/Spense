@@ -41,12 +41,20 @@ div {
 input {
   color: #fff;
   background-color: #000;
-  border: 1px solid gray;
+  border: none;
   border-radius: 4px; }
 
 /*Layout*/
+/*Fonts */
+h1 {
+  font-size: 2.6rem; }
+
+h2 {
+  font-size: 2.2rem; }
+
 .header {
-  padding: 0rem 1.25rem; }
+  padding: 0rem 1.25rem;
+  background-color: #f4f4f7; }
 
 .header, .main, .footer {
   min-width: 2rem;
@@ -99,7 +107,7 @@ h2 {
   height: auto;
   display: flex;
   justify-content: space-around;
-  gap: 15px; }
+  gap: 10px; }
   .hero__cta .hero__input {
     width: auto;
     padding: 10px; }
@@ -107,7 +115,7 @@ h2 {
 /*States*/
 .hero__input--bgwhite {
   background-color: #fff;
-  border: 1px solid 3; }
+  border: 1px solid gray; }
 
 input::placeholder {
   text-align: center; }
