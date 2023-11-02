@@ -1,4 +1,4 @@
-$theme-background-gray: #f4f4f7;
+$theme-background-gray: #e5e5e7;
 $theme-background-black: #212529;
 
 /*Fonts */
@@ -12,6 +12,14 @@ h1{
 }
 h2{
     font-size: 2.2rem;
+}
+.header, .escrow{
+    background-color: $theme-background-gray;
+}
+.header__logo{
+    font-weight: bold;
+    color: $subtitle-h2-color;
+    font-size: 1.8rem;
 }
 
 

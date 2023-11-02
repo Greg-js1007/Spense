@@ -6,6 +6,14 @@ h1 {
 h2 {
   font-size: 2.2rem; }
 
+.header, .escrow {
+  background-color: #e5e5e7; }
+
+.header__logo {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.8rem; }
+
 * {
   margin: 0;
   padding: 0;
@@ -52,9 +60,16 @@ h1 {
 h2 {
   font-size: 2.2rem; }
 
+.header, .escrow {
+  background-color: #e5e5e7; }
+
+.header__logo {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.8rem; }
+
 .header {
-  padding: 0rem 1.25rem;
-  background-color: #f4f4f7; }
+  padding: 0rem 1.25rem; }
 
 .header, .main, .footer {
   min-width: 2rem;
@@ -71,6 +86,14 @@ h1 {
 
 h2 {
   font-size: 2.2rem; }
+
+.header, .escrow {
+  background-color: #e5e5e7; }
+
+.header__logo {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.8rem; }
 
 /*Navbar*/
 .header__bar {
@@ -128,6 +151,14 @@ h2 {
     width: 33.3%;
     height: auto; }
 
+.main__benefits {
+  width: 100%;
+  height: auto;
+  padding: 30px 20px 0px 20px; }
+
+.escrow {
+  border-radius: 7px; }
+
 /*States*/
 .hero__input--bgwhite {
   background-color: #fff;
@@ -143,3 +174,11 @@ h1 {
 
 h2 {
   font-size: 2.2rem; }
+
+.header, .escrow {
+  background-color: #e5e5e7; }
+
+.header__logo {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.8rem; }
