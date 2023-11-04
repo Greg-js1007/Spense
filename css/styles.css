@@ -4,7 +4,7 @@ h1 {
   font-size: 2.6rem; }
 
 h2 {
-  font-size: 2.2rem; }
+  font-size: 2.4rem; }
 
 .header, .escrow {
   background-color: #e5e5e7; }
@@ -27,7 +27,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #403d39; }
+  color: #403d39;
+  font-weight: 400; }
 
 p {
   font-size: 1.4rem;
@@ -58,7 +59,7 @@ h1 {
   font-size: 2.6rem; }
 
 h2 {
-  font-size: 2.2rem; }
+  font-size: 2.4rem; }
 
 .header, .escrow {
   background-color: #e5e5e7; }
@@ -85,7 +86,7 @@ h1 {
   font-size: 2.6rem; }
 
 h2 {
-  font-size: 2.2rem; }
+  font-size: 2.4rem; }
 
 .header, .escrow {
   background-color: #e5e5e7; }
@@ -148,16 +149,38 @@ h2 {
   height: auto;
   gap: 5px; }
   .main__socialmedia img {
-    width: 33.3%;
+    width: 30%;
     height: auto; }
 
 .main__benefits {
   width: 100%;
   height: auto;
   padding: 30px 20px 0px 20px; }
+  .main__benefits h2 {
+    width: 70%; }
+  .main__benefits .main__anchorcontainer {
+    display: flex; }
+    .main__benefits .main__anchorcontainer .main__anchor {
+      color: #403d39;
+      font-size: 1.6rem;
+      border-bottom: 1px solid #403d39;
+      text-transform: capitalize; }
+    .main__benefits .main__anchorcontainer .main__icon {
+      width: 20px;
+      height: 21px; }
+      .main__benefits .main__anchorcontainer .main__icon .main__arrow {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #403d39; }
 
 .escrow {
   border-radius: 7px; }
+
+.main__figure {
+  width: 100%;
+  height: 26rem; }
+  .main__figure .main__image {
+    height: 100%; }
 
 /*States*/
 .hero__input--bgwhite {
@@ -173,7 +196,7 @@ h1 {
   font-size: 2.6rem; }
 
 h2 {
-  font-size: 2.2rem; }
+  font-size: 2.4rem; }
 
 .header, .escrow {
   background-color: #e5e5e7; }
