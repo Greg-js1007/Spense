@@ -24,6 +24,17 @@ h2{
 .footer{
     background-color: $subtitle-h2-color;
 }
+.logo{
+    font-weight: bold;
+    color: $paragrahps-footer-color;
+    font-size: 1.8rem; 
+}
+.footer__text .footer__p{
+    color: $anchor-footer-color;
+}
+.footer__list li a{
+    color: $anchor-footer-color;
+}
 
 
 

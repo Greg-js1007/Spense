@@ -119,3 +119,17 @@
 .texteditor{
     padding: 0;
 }
+.footer__nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 10px;
+    .footer__list{
+        h3{
+            font-size: 1.4rem;
+        }
+        li{
+            font-size: 1.2rem;
+        }
+    }
+}
